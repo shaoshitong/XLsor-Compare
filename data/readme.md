@@ -1,0 +1,3 @@
+Please download and put [our data](https://nihcc.box.com/s/r8kf5xcthjvvvf6r7l1an99e1nj4080m), [JSRT](http://db.jsrt.or.jp/eng.php) and [Montgomery](http://openi.nlm.nih.gov/imgs/collections/NLM-MontgomeryCXRSet.zip) in this directory. For JSRT and Montgomery, you need to merge the left and right lung masks as one image. For JSRT, you need to add '_0' at the end of the filename if it is normal, otherwise, add '_1'. The lung masks for JSRT can be downloaded from this link: https://www.isi.uu.nl/Research/Databases/SCR/download.php
+
+Since the images are 12 bit in JSRT dataset, we use the python file named "JSRT_preprocessing.py" to convert them into 8 bit.
